@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/1.png</file>
+        <file>images/11.png</file>
+        <file>images/22.png</file>
+        <file>images/33.png</file>
+        <file>images/apple.png</file>
+        <file>images/back.jpg</file>
+        <file>images/bl_corner.png</file>
+        <file>images/br_corner.png</file>
+        <file>images/button.png</file>
+        <file>images/Enter.png</file>
+        <file>images/game.png</file>
+        <file>images/gameover.png</file>
+        <file>images/green.jpg</file>
+        <file>images/h_body.png</file>
+        <file>images/head0.png</file>
+        <file>images/head1.png</file>
+        <file>images/head2.png</file>
+        <file>images/head3.png</file>
+        <file>images/icon.png</file>
+        <file>images/logo.png</file>
+        <file>images/quit.png</file>
+        <file>images/start.png</file>
+        <file>images/tail.png</file>
+        <file>images/taildown.png</file>
+        <file>images/tailleft.png</file>
+        <file>images/tailright.png</file>
+        <file>images/tailup.png</file>
+        <file>images/tl_corner.png</file>
+        <file>images/tr_corner.png</file>
+        <file>images/v_body.png</file>
+    </qresource>
+</RCC>

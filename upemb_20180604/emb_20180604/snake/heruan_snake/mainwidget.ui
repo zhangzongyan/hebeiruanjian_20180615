@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWidget</class>
+ <widget class="QWidget" name="MainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>580</width>
+    <height>370</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>580</width>
+    <height>370</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>贪吃蛇</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="snake_img.qrc">
+    <normaloff>:/new/prefix1/images/icon.png</normaloff>:/new/prefix1/images/icon.png</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>580</width>
+     <height>370</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="snake_img.qrc">:/new/prefix1/images/back.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>252</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="snake_img.qrc">
+     <normaloff>:/new/prefix1/images/start.png</normaloff>:/new/prefix1/images/start.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="snake_img.qrc"/>
+ </resources>
+ <connections/>
+</ui>
